@@ -1,0 +1,29 @@
+Setup for simulation
+
+Single "base station" - with M=6 antennas
+Supplying 3 users 
+
+Graph 1 - Shows different beam forming 
+    a. Single beam forming from the 6 antennas
+    b. 3x Beam forming - using 2 antennas for each beam
+
+
+1. Scenario 
+    Explore different degrees of separation (angular difference between the users )
+    [ 90, 60, 30, 15, 10, 5 ]
+
+    For each different degree of separation - calculate the received signal power.
+        
+        Plot a bar chart - where the received power is displayed in terms of each user 1-3
+        For each angle of separation
+
+2. Scenario
+    Repeat 2-3 of the cases above for an angle offset from the actual horizontal - having to focus the beams at an angle from the antennas
+
+    For each degree of separation - and angle of offset
+    Graph 3d? 
+
+
+3. Show how for each of the Scenarios above increasing the number of antennas wil enhace the performace 
+    
+
