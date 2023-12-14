@@ -75,5 +75,4 @@ def plot_mimo_config(config, x_range=(-130, 130), y_range=(-30, 130)):
 config = MIMOConfig(num_antennas=12, receiver_angles=[120, 90, 60], distance=100, frequency=3e9)
 plot_mimo_config(config)
 
-config = MIMOConfig(num_antennas=6, receiver_angles=[90], distance=100, frequency=3e9)
-plot_mimo_config(config)
+
