@@ -80,10 +80,6 @@ def polarPlot(array):
 ################################################################################################
 
 config1 = MIMOConfig(num_antennas=12, receiver_angles_deg=[135,90,45])
-#config2 = MIMOConfig(num_antennas=4, receiver_angle=90)
-#config3 = MIMOConfig(num_antennas=4, receiver_angle=45)
-#config4 = MIMOConfig(num_antennas=8, receiver_angle=30)
-
 sp = superpose(config1.array_responses)
 
 # Plot the gain in polar coordinates
